@@ -27,3 +27,15 @@ in, not in
 #     print('Não tem L no meu nome.')
 # else:
 #     print('Tem l no seu nome.')
+
+
+user = str(input('Nome de usuário: '))
+senha = int(input('Senha: '))
+
+user_bd = 'allan'
+senha_bd = 123456
+
+if user == user_bd and senha == senha_bd:
+    print('Você está logado.')
+else:
+    print('Usuário ou senha inválidos.')
