@@ -37,7 +37,15 @@ count - Contagem  # str
 #     print(index, list_1[index])
 
 
-list_1 = ['Allan', 'Carlos', 'Lima', 'Saraiva']
+# list_1 = ['Allan', 'Carlos', 'Lima', 'Saraiva']
+#
+# n1, n2, n3, n4 = list_1
+# print(n4)
 
-n1, n2, n3, n4 = list_1
-print(n4)
+list_1 = [
+    ['Allan', 'Carlos', 'Lima', 'Saraiva'],
+    ['Allany', 'Liste', 'Lima', 'Saraiva'],
+    ['Kaline', 'Cristina', 'Araújo', 'Lima', 'Saraiva']
+]
+for index, value in enumerate(list_1):
+    print(index, value)
